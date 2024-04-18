@@ -102,3 +102,11 @@ form [type="text"], form [type="tel"], form [type="email"], select {
     background-color: #9B26B0;
     border: none;
 }
+
+#toggle {
+    display: none;
+}
+
+#toggle ~ label {
+    background-color: #F6D64A;
+}
