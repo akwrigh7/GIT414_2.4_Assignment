@@ -122,8 +122,9 @@ nav ul {
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 4.5em;
+    top: 4.25em;
     right: 0;
+    font-size: 1.3em;
 }
 
 #toggle:checked ~ ul {
@@ -155,17 +156,16 @@ nav a:hover {
 [for="toggle"] {
     text-transform: uppercase;
     display: flex;
-    height: 40px;
+    height: 60px;
     width: 300px;
     align-items: center;
     justify-content: center;
     font-weight: 900;
     position: absolute;
-    top: 2em;
+    top: 1.3em;
     right: 0;
+    font-size: 1.3em;
 }
-
-
 
 .sr-only {
     position:absolute;
@@ -176,10 +176,53 @@ nav a:hover {
     overflow:hidden;
     }
 
+h1 {
+    font-size: 5em;
+    color: #222222;
+    margin-left: 50px;
+    margin-top: 30px;
+}
 
+header p {
+    color: #222222;
+    font-size: 2em;
+    margin-left: 50px;
+    margin-right: 70px;
+    line-height: 1.5em;
+}
+
+header {
+    height: 400px;
+}
 
 nav label {
     height: 200px;
+}
+
+#intro h2 {
+    font-size: 4em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.7em;
+    margin-left: 50px;
+    color: #222222;
+    line-height: 1.5em;
+    margin-right: 50px;
+}
+
+#img-grid img {
+    width: 100%;
+}
+
+#img-grid picture img {
+    width: 200%;
+    
+    display: flex;
+    justify-items: center;
+    align-content: center;
 }
 
 @media screen and (min-width: 768px) {
