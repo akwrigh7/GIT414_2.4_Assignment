@@ -121,7 +121,9 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 300px;
-    
+    position: absolute;
+    top: 4.5em;
+    right: 0;
 }
 
 #toggle:checked ~ ul {
@@ -131,8 +133,6 @@ nav ul {
 nav li {
     display: block;
     background-color: #55BCD5;
-    
-    
 }
 
 nav a {
@@ -144,6 +144,12 @@ nav a {
     border-bottom: 2px solid black;
     font-weight: 900;
     height: 80px;
+    transition: background-color .2s ease;
+}
+
+nav a:hover {
+    background-color: #499BD2;
+    
 }
 
 [for="toggle"] {
@@ -154,18 +160,23 @@ nav a {
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    
-    
+    position: absolute;
+    top: 2em;
+    right: 0;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
 
-nav {
-    order: -1;
-}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+
+
 
 nav label {
     height: 200px;
