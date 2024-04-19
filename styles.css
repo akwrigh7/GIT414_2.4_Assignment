@@ -110,3 +110,21 @@ form [type="text"], form [type="tel"], form [type="email"], select {
 #toggle ~ label {
     background-color: #F6D64A;
 }
+
+[for="toggle"] {
+    text-transform: uppercase;
+    padding: 10px 80px;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background-color: red;
+    }
+}
