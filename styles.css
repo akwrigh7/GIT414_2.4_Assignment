@@ -93,15 +93,6 @@ footer {
     color: #9B26B0;
 }
 
-form [type="text"], form [type="tel"], form [type="email"], select {
-    border: 2px solid #9B26B0;
-}
-
-#mySubmit {
-    color: white;
-    background-color: #9B26B0;
-    border: none;
-}
 
 #toggle {
     display: none;
@@ -335,13 +326,83 @@ picture {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 #about div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact h3 {
+    font-size: 4em;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    line-height: 1.2em;
+}
+
+.form-required {
+    color: #222222;
+    font-style: italic;
+    font-size: .5em;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contact label, #contact legend {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#contact input, #travelTime, #destination {
+    display: block;
     
+    
+    padding: 35px;
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+#names input, #nums input {
+    
+    
+}
+
+#travelTime, #destination, #mySubmit, #names input, #nums input {
+    width: 100%;
+    
+}
+
+form [type="text"], form [type="tel"], form [type="email"], select {
+    border: 5px solid #9B26B0;
+}
+
+#selects {
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+#names, #nums {
+    margin-left: 60px;
+    margin-right: 120px;
+}
+
+#mySubmit {
+    color: white;
+    background-color: #9B26B0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    margin-right: 60px;
+}
+
+#mySubmit:hover {
+    background-color: #79048e;
 }
 
 @media screen and (min-width: 768px) {
