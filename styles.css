@@ -215,14 +215,48 @@ nav label {
 
 #img-grid img {
     width: 100%;
+    margin-top: 20px;
 }
 
-#img-grid picture img {
-    width: 200%;
-    
+picture {
     display: flex;
-    justify-items: center;
-    align-content: center;
+    width: 200%;
+    position: relative;
+    right: 60%;
+    margin-bottom: 50px;
+}
+
+#plan {
+    height: 1400px;
+}
+
+#plan img {
+    width: 130%;
+    height: 130%;
+    
+}
+
+#plan h3 {
+    font-size: 4em;
+}
+
+#plan div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#plan section {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid white;
 }
 
 @media screen and (min-width: 768px) {
