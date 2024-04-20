@@ -367,14 +367,14 @@ picture {
     
 }
 
-#names input, #nums input {
-    
-    
-}
 
 #travelTime, #destination, #mySubmit, #names input, #nums input {
     width: 100%;
     
+}
+
+#travelTime, #destination, #mySubmit, #names input, #phone, #email {
+    margin-bottom: 40px;
 }
 
 form [type="text"], form [type="tel"], form [type="email"], select {
@@ -403,6 +403,26 @@ form [type="text"], form [type="tel"], form [type="email"], select {
 
 #mySubmit:hover {
     background-color: #79048e;
+}
+
+input[type="radio"] {
+    width: 100px;
+    height: 100px;
+}
+
+#nums fieldset label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-transform: none;
+    font-weight: 100;
+    margin-left: -100px;
+}
+
+.radio-label {
+    margin-left: -70px;
 }
 
 @media screen and (min-width: 768px) {
