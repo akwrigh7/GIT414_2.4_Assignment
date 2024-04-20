@@ -227,17 +227,26 @@ picture {
 }
 
 #plan {
-    height: 1400px;
+    
 }
 
 #plan img {
-    width: 130%;
-    height: 130%;
+    height: 300px;
     
 }
 
 #plan h3 {
     font-size: 4em;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+#plan h4 {
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 #plan div {
@@ -250,13 +259,14 @@ picture {
 
 #plan section {
     width: 80%;
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
     border: 3px solid white;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
