@@ -436,6 +436,10 @@ footer p, footer a {
     label[for="toggle"] {
         display: none;
     }
+    
+    nav{
+        
+    }
 
     nav ul {
         display: block;
@@ -448,8 +452,9 @@ footer p, footer a {
     }
 
     nav li {
-        width: 250px;
+        width: 220px;
         text-transform: uppercase;
+        
     }
 
     nav a {
@@ -462,7 +467,7 @@ footer p, footer a {
     }
 
     header img {
-        width: 350px;
+        width: 400px;
         
     }
 
@@ -478,12 +483,17 @@ footer p, footer a {
     header p {
         width: 50%;
         position: relative;
-        left: 340px;
+        left: 400px;
         bottom: 30px;;
     }
 
     #intro h2 {
-        margin-top: -40px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    #intro p {
+        margin-left: 50px;
     }
 
     #img-grid {
@@ -523,16 +533,69 @@ footer p, footer a {
         margin-bottom: 40px;
     }
 
-    #plan {
-        
+    #plan h3 {
+        margin-left: 50px;
     }
 
     #plan img {
         height: 250px;
     }
+
+    #testimonials div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 20px;;
+    }
+
+    #about div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #about section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #about h4 {
+        font-size: 2em;
+    }
+
+    #about p {
+        font-size: 1.7em;
+    }
+
+    fieldset {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 220px;;
+    }
+
+    fieldset label {
+        
+        position: relative;
+        left: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    fieldset .radio-label {
+        margin-left: 0px;
+        
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1300px) {
     body {
         background-color: red;
     }
