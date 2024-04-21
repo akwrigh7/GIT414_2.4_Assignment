@@ -59,7 +59,7 @@ table {
 	overflow: hidden;
 }
 
-h4, p, q, small, nav, button, form {
+h4, p, q, small, nav, button, form, footer {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -209,7 +209,7 @@ nav label {
     margin-top: 20px;
 }
 
-picture {
+#intro picture {
     display: flex;
     width: 200%;
     position: relative;
@@ -217,9 +217,6 @@ picture {
     margin-bottom: 50px;
 }
 
-#plan {
-    
-}
 
 #plan img {
     height: 300px;
@@ -359,12 +356,9 @@ picture {
 
 #contact input, #travelTime, #destination {
     display: block;
-    
-    
     padding: 35px;
     font-size: 2em;
     font-family: "Montserrat", sans-serif;
-    
 }
 
 
@@ -425,9 +419,116 @@ input[type="radio"] {
     margin-left: -70px;
 }
 
+
+
+footer p, footer a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
-    body {
-        background-color: green;
+    
+    label[for="toggle"] {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        max-height: 300px;
+        display: flex;
+        position: relative;
+        top: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    nav li {
+        width: 250px;
+        text-transform: uppercase;
+    }
+
+    nav a {
+        background-color: white;
+        border: none;
+    }
+
+    nav a:hover {
+        background-color: #F6D64A;
+    }
+
+    header img {
+        width: 350px;
+        
+    }
+
+    header {
+        height: 450px;
+        padding-top: 50px;
+    }
+
+    #wrap {
+        display: flex;
+    }
+
+    header p {
+        width: 50%;
+        position: relative;
+        left: 340px;
+        bottom: 30px;;
+    }
+
+    #intro h2 {
+        margin-top: -40px;
+    }
+
+    #img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        place-items: center;
+    }
+
+    #img-grid .pic {
+        width: 92%;
+        
+    }
+
+    #img-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    #intro picture {
+        right: -50%;
+        width: 192%;
+    }
+
+    #plan div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: -100px;
+        max-width: 950px;
+        place-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #plan div section {
+        width: 450px;
+        margin-bottom: 40px;
+    }
+
+    #plan {
+        
+    }
+
+    #plan img {
+        height: 250px;
     }
 }
 
