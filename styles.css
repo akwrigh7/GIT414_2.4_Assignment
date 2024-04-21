@@ -484,7 +484,7 @@ footer p, footer a {
         width: 50%;
         position: relative;
         left: 400px;
-        bottom: 30px;;
+        bottom: 50px;
     }
 
     #intro h2 {
@@ -596,7 +596,35 @@ footer p, footer a {
 }
 
 @media screen and (min-width: 1300px) {
-    body {
-        background-color: red;
+    header p, h1 {
+        margin-left: -40px;
+        
+    }
+
+    header p {
+        margin-top: -10px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+
+    nav li {
+        margin-left: 20px;
+        
+    }
+
+    nav a {
+        height: 60px;
+    }
+
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
