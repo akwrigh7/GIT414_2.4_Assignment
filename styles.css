@@ -550,6 +550,14 @@ footer p, footer a {
         margin-bottom: 20px;;
     }
 
+    #testimonials h3 {
+        margin-left: 50px;
+    }
+
+    #about h3 {
+        margin-left: 50px;
+    }
+
     #about div {
         display: flex;
         justify-content: center;
@@ -566,6 +574,10 @@ footer p, footer a {
 
     #about p {
         font-size: 1.7em;
+    }
+
+    #contact h3 {
+        margin-left: 50px;
     }
 
     fieldset {
@@ -626,5 +638,29 @@ footer p, footer a {
     #intro {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #plan div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #plan div section {
+        width: 390px;
+        height: 350px;
+        
+        
+    }
+
+    #plan img {
+        height: 200px;
+    }
+
+    #plan h4 {
+        font-size: 2em;;
+    }
+
+    #testimonials div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
