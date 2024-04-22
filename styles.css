@@ -672,21 +672,57 @@ footer p, footer a {
     #contact form {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+        position: relative;
     }
 
-    fieldset label {
-        left: ;
-    }
+    
 
     fieldset {
-        margin-bottom: 16px;
+        margin-bottom: 17px;
         grid-gap: 0;
         display: flex;
         justify-content: space-between;
     }
 
     .radio-label {
-        margin-left: 0px;
+        
+        
+    }
+
+    #names {
+        margin-left: 50px;
+    }
+
+    #nums {
+        margin-left: 0;
+    }
+
+    #selects {
+        margin-right: 50px;
+        margin-left: 0;
+    }
+
+    fieldset label {
+        left: ;
+    }
+
+
+    fieldset .radio-label {
+        margin-left: 20px;
+        
+    }
+
+    #mySubmit {
+        
+        position: relative;
+        width: 50%;
+        float: right;
+        top: 35px;
+        margin-right: 0;
+    }
+
+    footer a:first-of-type {
+        position: relative;
+        left: 250px;
     }
 }
