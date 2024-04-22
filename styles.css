@@ -431,6 +431,8 @@ footer p, footer a {
     padding-bottom: 20px;
 }
 
+/* Start of Medium Styles */
+
 @media screen and (min-width: 768px) {
     
     label[for="toggle"] {
@@ -521,7 +523,6 @@ footer p, footer a {
     #plan div {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: -100px;
         max-width: 950px;
         place-items: center;
         align-items: center;
@@ -603,9 +604,9 @@ footer p, footer a {
         display: flex;
         justify-content: space-around;
     }
-
-    
 }
+
+/* Start of Larg Styles */
 
 @media screen and (min-width: 1300px) {
     header p, h1 {
@@ -675,8 +676,6 @@ footer p, footer a {
         position: relative;
     }
 
-    
-
     fieldset {
         margin-bottom: 17px;
         grid-gap: 0;
@@ -702,14 +701,8 @@ footer p, footer a {
         margin-left: 0;
     }
 
-    fieldset label {
-        left: ;
-    }
-
-
     fieldset .radio-label {
         margin-left: 20px;
-        
     }
 
     #mySubmit {
