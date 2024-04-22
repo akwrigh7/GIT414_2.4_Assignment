@@ -396,7 +396,7 @@ form [type="text"], form [type="tel"], form [type="email"], select {
 }
 
 #mySubmit:hover {
-    background-color: #79048e;
+    background-color: #222222;
 }
 
 input[type="radio"] {
@@ -583,7 +583,7 @@ footer p, footer a {
     fieldset {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 220px;;
+        grid-gap: 220px;
     }
 
     fieldset label {
@@ -662,5 +662,31 @@ footer p, footer a {
 
     #testimonials div {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #about section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #contact form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    fieldset label {
+        left: ;
+    }
+
+    fieldset {
+        margin-bottom: 16px;
+        grid-gap: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .radio-label {
+        margin-left: 0px;
     }
 }
